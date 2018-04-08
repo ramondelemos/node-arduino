@@ -10,6 +10,10 @@
   },
   "keywords": [],
   "author": "Ramon de Lemos",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ramondelemos/node-arduino.git"
+  },
   "license": "MIT",
   "devDependencies": {
     "@types/body-parser": "^1.16.8",
@@ -25,10 +29,12 @@
   },
   "dependencies": {
     "@types/helmet": "0.0.37",
+    "@types/johnny-five": "0.0.35",
     "body-parser": "^1.18.2",
     "debug": "^3.1.0",
     "express": "^4.16.3",
     "helmet": "^3.12.0",
+    "johnny-five": "^0.14.3",
     "morgan": "^1.9.0"
   }
 }
